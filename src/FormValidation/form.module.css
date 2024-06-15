@@ -1,0 +1,36 @@
+.inputGroup {
+  padding: 0.5rem 1rem;
+  width: 30%;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.inputGroup input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.inputGroup button {
+  border: none;
+  background-color: #d4d4d4;
+  color: black;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #007bff;
+    color: white;
+  }
+}
+
+.formError{
+    color: red;
+}

@@ -1,0 +1,10 @@
+Hooks -> introduced in react 16.8 version
+
+-> It allows you to use state and other react features without writing a class. 
+Hook are the functions which "hook into" react state and lifecycle  features from function components.
+
+-> it does't work inside classes.
+
+-> Hooks should always be used at the top level of the react functions.
+
+-> node version 6 or above. NPM version 5.2 or above
